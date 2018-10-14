@@ -50,6 +50,7 @@ export class App extends Component<Props> {
    };
 
   render() {
+    console.log(this.props.authorizedUser);
     return (
       <Provider store={store}>
         <View style={{ flex: 1 }}>

@@ -11,7 +11,7 @@ export const AlbumDetails = ({
   url,
   selected,
   selectAlbum,
-                             }) => {
+}) => {
   const {
     thumbnailStyle,
     headerContentStyle,

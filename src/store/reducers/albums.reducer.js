@@ -1,4 +1,4 @@
-import { FETCH_ALBUMS_SUCCESS } from 'store/actions';
+import { FETCH_ALBUMS_SUCCESS } from 'store/actions/types';
 
 const initialState = [];
 

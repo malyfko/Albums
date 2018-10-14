@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 import { fetchAlbums } from 'store/actions';
 import { AlbumList } from './AlbumList';
 
-const mapStateToProps = ({ albums }) => ({
+const mapStateToProps = ({ albums, errorMessage }) => ({
   albums,
+  errorMessage,
 });
 
 const mapDispatchToProps = dispatch => ({

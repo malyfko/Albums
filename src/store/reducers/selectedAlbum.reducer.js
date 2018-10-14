@@ -1,4 +1,4 @@
-import { SET_SELECTED_ALBUM } from 'store/actions';
+import { SET_SELECTED_ALBUM } from 'store/actions/types';
 
 const initialState = null;
 

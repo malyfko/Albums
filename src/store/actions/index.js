@@ -1,2 +1,8 @@
-export { selectAlbum, SET_SELECTED_ALBUM } from './selectedAlbum.actions';
-export { fetchAlbums, FETCH_ALBUMS_SUCCESS, FETCH_ALBUMS_ERROR } from './albums.actions';
+export { selectAlbum } from './selectedAlbum.actions';
+export { fetchAlbums } from './albums.actions';
+export {
+  changeEmail,
+  changePassword,
+  clearLoginForm,
+  loginUser,
+} from './loginForm.actions';
